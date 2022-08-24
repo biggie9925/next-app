@@ -1,0 +1,47 @@
+.contact {
+    text-align: center;
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-grey-900),
+      var(--color-grey-800)
+    );
+    padding: var(--size-8) 0;
+  }
+
+  .contact label {
+    text-align: left;
+    display: block;
+    color: var(--color-grey-200);
+  }
+
+  .contact h2 {
+    font-size: var(--size-6);
+    color: var(--color-grey-200);
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+
+  .contact input, .contact textarea, .contact select, .contact label {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .contact button {
+    background: var(--color-grey-200);
+    color: var(--color-grey-900);
+    border: 0;
+    margin-top: 15px;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  
+  
