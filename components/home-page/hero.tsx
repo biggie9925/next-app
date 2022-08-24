@@ -1,6 +1,6 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-import classes from './hero.module.css';
+import classes from "./hero.module.css";
 
 function Hero() {
     return (
@@ -13,7 +13,7 @@ function Hero() {
                 height={300}
             />
         </div>
-        <h1>Hi, I'm David</h1>
+        <h1>Hi, I`&apos;`m David</h1>
         <h2>
             I am a software development student, basketball enthusiast, <br></br>tennis player, aspiring swimmer, and food connoisseur...
         </h2>

@@ -28,7 +28,7 @@ function Project() {
                             height={200}
                         />
                         <h2>C++ Console</h2>
-                        <p>The first "big" project that opened my eyes to the power and functionality of programming</p>
+                        <p>The first `&ldquot;`big`&rdquot;` project that opened my eyes to the power and functionality of programming</p>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>
                         <Image
