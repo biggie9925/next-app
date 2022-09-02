@@ -1,4 +1,4 @@
-.hero {
+.basketball {
   text-align: center;
   background-image: linear-gradient(
     to bottom,
@@ -8,14 +8,14 @@
   padding: var(--size-8) 0;
 }
 
-.hero h1 {
-  font-size: var(--size-16);
+.basketball h1 {
+  font-size: var(--size-8);
   margin: var(--size-4) 0;
   color: var(--color-grey-900);
 }
 
-.hero p {
-  font-size: var(--size-6);
+.basketball h2 {
+  font-size: var(--size-4);
   color: var(--color-grey-800);
   width: 90%;
   max-width: 40rem;
@@ -25,3 +25,41 @@
 .result {
   list-style: none;
 }
+
+  /* small tablet */
+  @media screen and (min-width: 620px) 
+  {
+    .basketball h1 {
+      font-size: var(--size-10);
+    }
+  
+    .basketball h2 {
+      font-size: var(--size-5);
+    }
+  }
+  
+  
+  /* large tablet and laptops */
+  @media screen and (min-width: 960px) 
+  {
+    .basketball h1 {
+      font-size: var(--size-12);
+    }
+  
+    .basketball h2 {
+      font-size: var(--size-5);
+    }
+  }
+  
+  
+  /* desktop */
+  @media screen and (min-width: 1200px) 
+  {
+    .basketball h1 {
+      font-size: var(--size-16);
+    }
+  
+    .basketball h2 {
+      font-size: var(--size-6);
+    }
+  }

@@ -25,7 +25,7 @@ function App() {
   const NBA_SEASON_AVG_URL = "https://www.balldontlie.io/api/v1/season_averages"
 
   return (
-    <section className={classes.hero}>
+    <section className={classes.basketball}>
       <h2>As part of the Microsoft Student Accelerator program I have created a....</h2>
       <h1>NBA Player Search</h1>
 

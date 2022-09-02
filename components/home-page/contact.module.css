@@ -15,7 +15,7 @@
   }
 
   .contact h2 {
-    font-size: var(--size-6);
+    font-size: var(--size-4);
     color: var(--color-grey-200);
     width: 90%;
     max-width: 40rem;
@@ -44,4 +44,29 @@
   }
 
   
-  
+    /* small tablet */
+    @media screen and (min-width: 620px) 
+    {
+      .contact h2 {
+        font-size: var(--size-5);
+      }
+    }
+    
+    
+    /* large tablet and laptops */
+    @media screen and (min-width: 960px) 
+    {
+      .contact h2 {
+        font-size: var(--size-5);
+      }
+    }
+    
+    
+    /* desktop */
+    @media screen and (min-width: 1200px) 
+    {
+   
+      .contact h2 {
+        font-size: var(--size-6);
+      }
+    }

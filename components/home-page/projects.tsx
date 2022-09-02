@@ -41,7 +41,7 @@ function Project() {
                         <h2>Qt</h2>
                         <p>A practical full stack Qt C++ application featuring a user friendly GUI, on-event functions, and a SQLite database.</p>
                     </Grid>
-                    <Grid item xs={12} sm={6} md={4}>
+                    <Grid item xs={12} sm={12} md={4}>
                     <Image
                             className={classes.image}
                             src="/images/cv.jpg"

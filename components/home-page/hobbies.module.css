@@ -26,7 +26,7 @@
   }
   
   .hobbies h2 {
-    font-size: var(--size-6);
+    font-size: var(--size-4);
     color: var(--color-grey-800);
     width: 90%;
     max-width: 40rem;
@@ -34,10 +34,47 @@
   }
 
   .hobbies p {
-    font-size: var(--size-6);
+    font-size: var(--size-4);
     color: var(--color-grey-900);
     width: 90%;
     max-width: 40rem;
     margin: auto;
   }
 
+  /* small tablet */
+  @media screen and (min-width: 620px) 
+  {
+    .hobbies p {
+      font-size: var(--size-5);
+    }
+  
+    .hobbies h2 {
+      font-size: var(--size-5);
+    }
+  }
+  
+  
+  /* large tablet and laptops */
+  @media screen and (min-width: 960px) 
+  {
+    .hobbies p {
+      font-size: var(--size-5);
+    }
+  
+    .hobbies h2 {
+      font-size: var(--size-5);
+    }
+  }
+  
+  
+  /* desktop */
+  @media screen and (min-width: 1200px) 
+  {
+    .hobbies p {
+      font-size: var(--size-6);
+    }
+  
+    .hobbies h2 {
+      font-size: var(--size-6);
+    }
+  }

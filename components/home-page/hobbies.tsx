@@ -41,7 +41,7 @@ function Project() {
                         <h2>At the pools</h2>
                         <p>Nothing beats a swim, sauna, and spa after class!</p>
                     </Grid>
-                    <Grid item xs={12} sm={6} md={4}>
+                    <Grid item xs={12} sm={12} md={4}>
                     <Image
                             className={classes.image}
                             src="/images/food.jpg"
